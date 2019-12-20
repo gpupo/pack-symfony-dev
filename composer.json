@@ -29,7 +29,7 @@
     },
     "require-dev": {
         "gpupo/common-sdk": "*",
-        "gpupo/pack-symfony-common": "^5.0"
+        "gpupo/pack-symfony-common": "*"
     },
     "scripts": {
         "test": "phpunit"
