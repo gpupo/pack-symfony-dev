@@ -11,7 +11,6 @@
     "keywords": ["common", "development"],
     "license": "MIT",
     "require": {
-        "nvpc/package-symfony-common": "^5.0",
         "symfony/debug-pack": "*",
         "symfony/maker-bundle": "^1.14",
         "symfony/phpunit-bridge": "^5.0",
@@ -29,7 +28,8 @@
         }
     },
     "require-dev": {
-        "gpupo/common-sdk": "*"
+        "gpupo/common-sdk": "*",
+        "nvpc/package-symfony-common": "^5.0"
     },
     "scripts": {
         "test": "phpunit"
