@@ -3,7 +3,7 @@ layout: default
 ---
 Common PHP tool for require-dev env
 
-[![Build Status](https://secure.travis-ci.org/gpupo/common-dev.png?branch=master)](http://travis-ci.org/gpupo/common-dev)
+[![Build Status](https://secure.travis-ci.org/gpupo/pack-symfony-dev.png?branch=master)](http://travis-ci.org/gpupo/pack-symfony-dev)
 
 
 ## Requisitos para uso
@@ -50,4 +50,4 @@ Proibido:
 
 Adicione o pacote ao seu projeto utilizando [composer](http://getcomposer.org):
 
-    composer require --dev gpupo/common-dev
+    composer require --dev gpupo/pack-symfony-dev

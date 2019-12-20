@@ -1,7 +1,7 @@
 {
-    "name": "gpupo/common-dev",
-    "description": "Common PHP tool for require-dev env",
-    "homepage": "https://opensource.gpupo.com/common-dev/",
+    "name": "gpupo/pack-symfony-dev",
+    "description": "Pacote de componentes de uso comum em ambiente de desenvolvimento em projetos que rodam Symfony Framework",
+    "homepage": "https://opensource.gpupo.com/pack-symfony-dev/",
     "authors": [
         {
             "name": "Gilmar Pupo",
@@ -11,18 +11,21 @@
     "keywords": ["common", "development"],
     "license": "MIT",
     "require": {
-        "php": ">=7.4",
-        "phpunit/phpunit": "^8.5",
-        "phan/phan": "^2.4.5",
-        "vimeo/psalm": "^3.7",
-        "symfony/var-dumper": "^5.0",
-        "symfony/finder": "^5.0",
-        "symfony/dotenv": "^5.0"
+        "nvpc/package-symfony-common": "^5.0",
+        "symfony/debug-pack": "*",
+        "symfony/maker-bundle": "^1.14",
+        "symfony/phpunit-bridge": "^5.0",
+        "symfony/profiler-pack": "*",
+        "symfony/test-pack": "*",
+        "gpupo/common-dev": "^5.0",
+        "doctrine/doctrine-fixtures-bundle": "^3.3",
+        "alexandresalome/doctrine-extra-bundle": "^0.3.0",
+        "phpspec/prophecy": "^1.9"
     },
     "autoload": {
         "psr-4": {
-            "Gpupo\\CommonDev\\": "src",
-            "Gpupo\\CommonDev\\Tests\\": "tests"
+            "Gpupo\\PackSymfonyDev\\": "src",
+            "Gpupo\\PackSymfonyDev\\Tests\\": "tests"
         }
     },
     "require-dev": {
