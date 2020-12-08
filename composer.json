@@ -11,15 +11,13 @@
     "keywords": ["common", "development"],
     "license": "MIT",
     "require": {
+        "php": "^8.0",
         "symfony/debug-pack": "*",
         "symfony/maker-bundle": "^1.14",
-        "symfony/phpunit-bridge": "^5.0",
+        "symfony/phpunit-bridge": "^5.1",
         "symfony/profiler-pack": "*",
         "symfony/test-pack": "*",
-        "gpupo/common-dev": "^5.0",
-        "doctrine/doctrine-fixtures-bundle": "^3.3",
-        "alexandresalome/doctrine-extra-bundle": "^0.3.0",
-        "phpspec/prophecy": "^1.9"
+        "gpupo/common-dev": "^5.0"
     },
     "autoload": {
         "psr-4": {
