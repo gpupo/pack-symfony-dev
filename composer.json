@@ -17,7 +17,7 @@
         "symfony/phpunit-bridge": "^5.1",
         "symfony/profiler-pack": "*",
         "symfony/test-pack": "*",
-        "gpupo/common-dev": "^5.0"
+        "gpupo/common-dev": "^5.3"
     },
     "autoload": {
         "psr-4": {
