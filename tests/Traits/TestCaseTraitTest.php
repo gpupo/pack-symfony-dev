@@ -24,5 +24,8 @@ use Gpupo\PackSymfonyDev\Tests\TestCaseAbstract;
  */
 class TestCaseTraitTest extends TestCaseAbstract
 {
-
+    public function testDomain()
+    {
+        $this->assertTrue($this->assertFoo('bar'));
+    }
 }

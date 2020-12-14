@@ -19,4 +19,8 @@ namespace Gpupo\PackSymfonyDev\Traits;
 
 trait TestCaseTrait
 {
+    public function assertFoo(string $string): bool
+    {
+        return true;
+    }
 }

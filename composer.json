@@ -12,12 +12,12 @@
     "license": "MIT",
     "require": {
         "php": "^8.0",
-        "symfony/debug-pack": "*",
+        "symfony/debug-pack": "^1.0",
         "symfony/maker-bundle": "^1.25",
-        "symfony/phpunit-bridge": "^5.1",
-        "symfony/profiler-pack": "*",
-        "symfony/test-pack": "*",
-        "gpupo/common-dev": "^5.3"
+        "symfony/phpunit-bridge": "^5.2",
+        "symfony/profiler-pack": "^1.0",
+        "symfony/test-pack": "^1.0",
+        "gpupo/common-dev": "^5.3 || dev-main"
     },
     "autoload": {
         "psr-4": {
@@ -25,9 +25,12 @@
             "Gpupo\\PackSymfonyDev\\Tests\\": "tests"
         }
     },
+    "replace":{
+        "gpupo/pack-symfony-dev": "*"
+    },
     "require-dev": {
-        "gpupo/common-sdk": "*",
-        "gpupo/pack-symfony-common": "*"
+        "gpupo/common-sdk": "^6.4 || dev-main",
+        "gpupo/pack-symfony-common": "^4.8 || dev-main"
     },
     "scripts": {
         "test": "phpunit"
